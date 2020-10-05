@@ -1,7 +1,7 @@
 section {
     position: relative;
     background-color: black;
-    height: 75vh;
+    height: 100vh;
     min-height: 25rem;
     width: 100%;
     overflow:hidden;
@@ -36,5 +36,12 @@ section {
     background-color: black;
     opacity: 0.5;
     z-index: 1;
+  }
+
+
+  .wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
   
