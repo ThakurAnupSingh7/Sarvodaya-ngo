@@ -1,0 +1,58 @@
+<mat-toolbar class="top-nav">
+  <mat-toolbar-row>
+    <span class="logo">
+      <a routerLink="home">
+        <img src="assets/img/sports-logo-13.png" class="avatar-01" />
+
+        <div class="txt">
+          <span class="txt1"
+            >SARVODAY<span>&nbsp;</span
+            ><span class="txt2">FOUNDATION</span></span
+          >
+        </div>
+      </a>
+    </span>
+    <span class="example-spacer"></span>
+    <span class="one" routerLink="home">HOME</span>
+
+    <span class="one" routerLink="about">ABOUT US</span>
+
+    <span class="one" routerLink=" ">OUR WORK </span>
+
+    <span class="one" routerLink=" ">OUTREACH </span>
+
+    <span class="one" routerLink=" ">FUNDING </span>
+
+    <span class="one" routerLink=" ">GALLERY</span>
+
+    <span class="one" routerLink=" ">GET INVOLVED </span>
+    
+    <span class="last one" [matMenuTriggerFor]="partner">CONTACT US</span>
+    <mat-menu #partner="matMenu" yPosition="below">
+      <button mat-menu-item routerLink="partners">
+        <mat-icon class="mat-icons">control_camera</mat-icon>
+        <span>Our Partners</span>
+      </button>
+      <button mat-menu-item routerLink="become-partners">
+        <mat-icon class="mat-icons">call_merge</mat-icon>
+        <span>Become A Partner</span>
+      </button>
+    </mat-menu>
+
+    <!--Small screen sidenavbar-->
+    <!-- <span class="small-screen-menu">
+  
+        <div id="mySidenavbar" class="sidenavbar">
+          <a href="javascript:void(0)" class="closebtn" (click)="OncloseNavbar()">&times;</a>
+          <img src="assets/img/sports-logo-13.png" width="160">
+          <a routerLink='home' (click)="OncloseNavbar()">Home</a>
+          <a routerLink="game-info" (click)="OncloseNavbar()">Game Info</a>
+          <a routerLink="contactUs" (click)="OncloseNavbar()">Contact Us </a>
+        </div>
+  
+  
+        <span class="small-screen-menu" (click)="OnopenNavbar()">&#9776; </span>
+      </span> -->
+    <!--End Small screen sidenavbar-->
+  </mat-toolbar-row>
+</mat-toolbar>
