@@ -1,240 +1,138 @@
-
 // toolbar css
 .top-nav{
-    min-height: 114px;  
-    background: transparent;
+  min-height: 114px;  
+  background: transparent;
+  position: fixed;
+  top: 0px;
+  z-index: 999;color:#fff;
+  transition-property: min-height;
+  transition-duration: .5s;
+}
+.top-nav:hover{
+  background-color: white;
+  color: black;
+}
+
+.addClass{
+    min-height: 94px;  
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3f51b5+0,2989d8+41,2989d8+52,2989d8+52,207cca+66,207cca+66,3f51b5+100 */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f51b5', endColorstr='#3f51b5',GradientType=0 ); /* IE6-9 */
+box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(63,81,181, 0.4);
+    color: black !important;
     position: fixed;
     top: 0px;
-    z-index: 999;color:#fff;
-    transition-property: min-height;
-    transition-duration: 1s;
-  }
-  .top-nav:hover{
+    z-index: 999;
     background-color: white;
+}
+
+.example-icon {
+    padding: 0 14px;
+  }
+  span.one:focus {
+    outline: none;
+}
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  span.one {
+    padding: 6% 5px 0px 5px;
+    letter-spacing: .06em;
+    padding-bottom: .8em;
+    font-size: 1.33333rem;
+    line-height: 1.78571;
+    font-weight: 700;
+    margin-left: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+span.one::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: black;
+  transition: width .7s;
+}
+span.one:hover::after{
+  width: 100%;
+  transition: width .7s;
+}
+  .addOne{
     color: black;
   }
+  img.avatar-01 {
+    width: 120px;height: auto;
+  }
 
-  .addClass{
-      min-height: 94px;  
-   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3f51b5+0,2989d8+41,2989d8+52,2989d8+52,207cca+66,207cca+66,3f51b5+100 */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f51b5', endColorstr='#3f51b5',GradientType=0 ); /* IE6-9 */
-  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(63,81,181, 0.4);
-      color: black !important;
-      position: fixed;
-      top: 0px;
-      z-index: 999;
-      background-color: white;
+  span.last.one {
+    margin-right: 4%;
+
   }
-  
-  .example-icon {
-      padding: 0 14px;
+  @media screen and (max-width: 950px) {
+    .top-nav{
+      height: 60px;
+      width: 100%;
     }
-    span.one:focus {
-      outline: none;
-  }
     
-    .example-spacer {
-      flex: 1 1 auto;
-    }
     span.one {
-      padding: 40px 5px 0px 5px;
-      letter-spacing: .06em;
-      padding-bottom: .8em;
-      font-size: .77778rem;
-      line-height: 1.78571;
-      font-weight: 700;
-      margin-left: 25px;
+      padding: 0px 3px;
+      font-size: 10px;
+      color: white;
+      font-weight: 500;
       text-decoration: none;
       cursor: pointer;
   }
-
-  span.one:hover{
-    border-bottom: 2px solid black;
+  span.last.one {
+    padding-right: 0px;
+}
+img.avatar-01 {
+  width: 50px;height: auto;
+  padding-top: 10px;
+}
   }
-    .addOne{
-      color: black;
-    }
-    img.avatar-01 {
-      width: 120px;height: auto;
-    }
-  
-    span.last.one {
-      margin-right: 4%;
-  
-    }
-  
-    @media screen and (max-width: 950px) {
-      .top-nav{
-        height: 60px;
-        width: 100%;
-      }
-      
-      span.one {
-        padding: 0px 3px;
-        font-size: 10px;
-        color: white;
-        font-weight: 500;
-        text-decoration: none;
-        cursor: pointer;
-    }
-    span.last.one {
-      padding-right: 0px;
-  }
-  img.avatar-01 {
-    width: 50px;height: auto;
-    padding-top: 10px;
-  }
-    }
+  // .mat-toolbar-multiple-rows {
+  //   min-height: 64px;  
+  //   background: #000b1b9e;
+  //   color: white;
+  //   position: fixed;
+  //   top: 0px;
+  //   z-index: 999;
+  // }
   
   
-  
-    // .mat-toolbar-multiple-rows {
-    //   min-height: 64px;  
-    //   background: #000b1b9e;
-    //   color: white;
-    //   position: fixed;
-    //   top: 0px;
-    //   z-index: 999;
-    // }
-    
-    
-    .logo{
-      position: fixed;
-      top: 20px;
-      left: 20px;
-    }
-    
-    .txt{
-      font-size: 12px;
-      background: #a509096e;
-      margin-left: 0px;
-      border: 1px;
-      border-radius: 5px;
-      text-align: center;
-    }
-  
-    @media screen and (max-width: 950px) {
-      .txt{
-        font-size: 5px;
-      } 
-    }
-  
-  
-    .txt1{
-    
-      color: #00e9ff;
-    }
-  
-    .txt2{
-      color: #fffeff;
-      
-    }
-    
-   
-    
-    /////////////////////////////////////////////////////////////
-    
-  ////dropdown
-  .mat-menu-item {
-    background:#fff;
-    color: gray;
-    outline: none;
-    border-bottom: transparent;
-  }
-  
-  
-  .mat-menu-item:hover:not([disabled]) {
-      z-index: 1024;
-      background: #6a0372;
-      border-radius: 5px !important;
-      box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(206, 177, 50, 0.4);
-      color: #ffffff;
-      outline: none;
-  }
-  .mat-menu-item:hover .mat-icons{
-    color: #fff;
-  }
-  
-  button:focus {
-  outline:none;
-  }
-  
-  .mat-menu .content {
-    padding-top: 0px !important; 
-    margin: 0px 0px 0px 0px;
-    padding-bottom: 0px !important;
-    }
-  
-  
-  
-  
-  /////////////////////////////////////////////////////
-  
-  
-  /////small screen sidenavbar menu///////////////////
-  
-  @media screen and (min-width: 950px) {
-    .small-screen-menu{
-    display: none;
-      }
-    }
-      
-  
-  
-  .small-screen-menu{
-  font-size: 26px;
-      cursor: pointer;
-      background: white;
-      padding: 0px 3px;
-      color: #3386eb;
-      border-radius: 50%;
-      
-  }
-  
-  .sidenavbar {
-    height: 100%;
-    width: 0;
+  .logo{
     position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background:-webkit-linear-gradient(0deg, #028749 0%, #150980 100%);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+    top: 6%;
+    left: 8%;
+    z-index: 1001;
+  }
+  
+  .txt{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 0px;
+    border: 1px;
+    border-radius: 5px;
     text-align: center;
   }
-  
-  .sidenavbar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #f1f1f1;
-    margin-right: 22px;
-    display: block;
-    transition: 0.3s;
+
+  @media screen and (max-width: 950px) {
+    .txt{
+      font-size: 5px;
+    } 
+  }
+
+
+  .txt1{
+    color: white;
+  }
+
+  .txt2{
+    color: white;
   }
   
-  .sidenavbar a:hover {
-    color: #000000;
-  }
+ 
   
-  .sidenavbar .closebtn {
-    position: absolute;
-    top: 0;
-    right:0;
-    font-size: 50px;
-    margin-left: 50px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenavbar {padding-top: 15px;}
-    .sidenavbar a {font-size: 18px;}
-  }
-  
-  
-  ////////////////////////////////////////////////////////////
-  .mat-icons{
-    color: rgb(184, 183, 183);
-    font-size: 28px;
-  }
+  /////////////////////////////////////////////////////////////
