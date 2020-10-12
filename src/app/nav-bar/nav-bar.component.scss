@@ -1,3 +1,4 @@
+
 // toolbar css
 .top-nav{
   min-height: 114px;  
@@ -136,3 +137,139 @@ img.avatar-01 {
  
   
   /////////////////////////////////////////////////////////////
+  
+////dropdown
+.mat-menu-item {
+  background:#fff;
+  color: gray;
+  outline: none;
+  border-bottom: transparent;
+}
+
+
+.mat-menu-item:hover:not([disabled]) {
+    z-index: 1024;
+    background: #6a0372;
+    border-radius: 5px !important;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(206, 177, 50, 0.4);
+    color: #ffffff;
+    outline: none;
+}
+.mat-menu-item:hover .mat-icons{
+  color: #fff;
+}
+
+button:focus {
+outline:none;
+}
+
+.mat-menu .content {
+  padding-top: 0px !important; 
+  margin: 0px 0px 0px 0px;
+  padding-bottom: 0px !important;
+  }
+
+
+
+
+/////////////////////////////////////////////////////
+
+
+/////small screen sidenavbar menu///////////////////
+
+@media screen and (min-width: 950px) {
+  .small-screen-menu{
+  display: none;
+    }
+  }
+    
+
+
+.small-screen-menu{
+font-size: 26px;
+    cursor: pointer;
+    background: white;
+    padding: 0px 3px;
+    color: #3386eb;
+    border-radius: 50%;
+    
+}
+
+.sidenavbar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background:-webkit-linear-gradient(0deg, #028749 0%, #150980 100%);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.sidenavbar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  margin-right: 22px;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenavbar a:hover {
+  color: #000000;
+}
+
+.sidenavbar .closebtn {
+  position: absolute;
+  top: 0;
+  right:0;
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenavbar {padding-top: 15px;}
+  .sidenavbar a {font-size: 18px;}
+}
+
+
+////////////////////////////////////////////////////////////
+.mat-icons{
+  color: rgb(184, 183, 183);
+  font-size: 28px;
+}
+.shape {
+position: absolute;
+width: 100%;
+height: auto;
+z-index: 1000;
+top: 10%;
+transform: translateY(-50%);
+margin-left: .55556rem;
+text-align: center;
+color: #fff;
+right: 70.42857%;
+width: 33.71429%;
+}
+.site-logo__shape path {
+fill: #FB3449;
+}
+// @media only screen and (min-width: 1080px){
+// .site-logo__shape {
+//     right: 71.42857%;
+//     width: 35.71429%;
+//   }
+// }
+// @media only screen and (min-width: 640px){
+// .site-logo__shape {
+//     width: 280px;
+//     width: 42.85714%;
+//     right: 64.28571%;
+//     left: auto;
+//     top: 20%;
+//   }
+// }
