@@ -10,19 +10,24 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 import {MatMenuModule} from '@angular/material/menu';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatCardModule} from '@angular/material/card';
 
 import {MatIconModule} from '@angular/material/icon';
+import { FooterComponent } from './footer/footer.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavBarComponent,
+    FooterComponent,
+    AboutUsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,MatMenuModule,MatToolbarModule,MatIconModule,
+    BrowserAnimationsModule,MatMenuModule,MatToolbarModule,MatIconModule,MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,13 +1,23 @@
 <div class="site-logo__shape">
-  <svg width="1920px" height="1690px" class="shape" viewBox="0 0 1920 1690" xmlns="http://www.w3.org/2000/svg">
-    <path class="fill-grey" d="M107.031481,400.759434 C39.8437707,448.856201 0,526.310447 0,608.818959 L0,1064.32167 C0,1146.83241 39.8437707,1224.28443 107.031481,1272.38342 L599.768862,1625.1294 C682.813336,1684.58102 793.297661,1689.19685 881.032916,1636.88263 L1795.00615,1091.9165 C1872.53008,1045.69144 1920,962.212577 1920,872.099296 L1920,801.041336 C1920,710.930281 1872.53008,627.451421 1795.00615,581.226357 L881.032916,36.2602278 C793.297661,-16.0539923 682.813336,-11.4381627 599.768862,48.0134566 L107.031481,400.759434 Z"></path>
+  <svg
+    width="1920px"
+    height="1690px"
+    class="shape"
+    viewBox="0 0 1920 1690"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      class="fill-grey"
+      d="M107.031481,400.759434 C39.8437707,448.856201 0,526.310447 0,608.818959 L0,1064.32167 C0,1146.83241 39.8437707,1224.28443 107.031481,1272.38342 L599.768862,1625.1294 C682.813336,1684.58102 793.297661,1689.19685 881.032916,1636.88263 L1795.00615,1091.9165 C1872.53008,1045.69144 1920,962.212577 1920,872.099296 L1920,801.041336 C1920,710.930281 1872.53008,627.451421 1795.00615,581.226357 L881.032916,36.2602278 C793.297661,-16.0539923 682.813336,-11.4381627 599.768862,48.0134566 L107.031481,400.759434 Z"
+    ></path>
   </svg>
   <span class="logo">
     <a routerLink="home">
-      <img src="assets/img/sports-logo-13.png" class="avatar-01" />
+      <img src="assets/img/logo.jpg" class="avatar-01" />
       <div class="txt">
         <span class="txt1">
-          SARVODAY<span>&nbsp;</span><span class="txt2">FOUNDATION</span></span>
+          SARVODAYA<span>&nbsp;</span><span class="txt2">FOUNDATION</span></span
+        >
       </div>
     </a>
   </span>
@@ -15,7 +25,7 @@
 <mat-toolbar class="top-nav">
   <mat-toolbar-row>
     <span class="example-spacer"></span>
-    <span class="one" routerLink="home">HOME</span>
+    <span class="one" routerLink="Home">HOME</span>
 
     <span class="one" routerLink="about">ABOUT US</span>
 
@@ -28,7 +38,7 @@
     <span class="one" routerLink=" ">GALLERY</span>
 
     <span class="one" routerLink=" ">GET INVOLVED </span>
-    
+
     <span class="last one" [matMenuTriggerFor]="partner">CONTACT US</span>
     <mat-menu #partner="matMenu" yPosition="below">
       <button mat-menu-item routerLink="partners">

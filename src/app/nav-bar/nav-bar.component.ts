@@ -20,7 +20,7 @@ export class NavBarComponent implements OnInit {
           $(".top-nav").addClass("addClass");
           // $(".top-nav").removeClass("removeClass"); 
 
-          $("span.one").addClass("addOne");
+          $(".txt").addClass("addtxt");
           // $("span.one").removeClass("removeOne"); 
         }
     
@@ -28,7 +28,7 @@ export class NavBarComponent implements OnInit {
           $(".top-nav").removeClass("addClass");  
           // $(".top-nav").addClass("removeClass");	
 
-          $("span.one").removeClass("addOne");  
+          $(".txt").removeClass("addtxt");  
           // $("span.one").addClass("removeOne");
         }
       })
