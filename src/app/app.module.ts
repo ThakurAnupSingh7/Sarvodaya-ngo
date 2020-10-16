@@ -15,6 +15,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 import { FooterComponent } from './footer/footer.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
     NavBarComponent,
     FooterComponent,
     AboutUsComponent,
+    ContactUsComponent,
   ],
   imports: [
     BrowserModule,
