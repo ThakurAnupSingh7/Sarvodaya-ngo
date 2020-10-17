@@ -1,0 +1,196 @@
+.about1{
+    width: 100%;
+    height: auto;
+    background-color: #ffa6b021;
+    padding: 20px;
+}
+.count_lg{
+    max-width: 90%;
+}
+.ab{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.about1,.about2,.card p {
+    margin-top: 0;
+    font-size: 17px;
+    color: #38046a;
+    line-height: 2rem;
+    word-spacing: 0.22222rem;
+    text-align: justify;
+  }
+.sub{
+      font-size: 20px;
+      font-weight: 400;
+      color: darkblue;
+      margin-bottom: 15px;
+  }
+  .overlay{
+      position: absolute;
+      text-align: justify;
+      top: 50%;
+      margin-left: 45%;
+      font-weight: 500;
+      font-size: 60px;
+      color: white;
+  }
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+.sec_pad{
+    background-color: #f8fcff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.text-center{
+    text-align: center!important;
+}
+.mb-80 {
+    margin-bottom: 80px;
+}
+.section-tittle h2 {
+    font-size: 45px;
+    display: block;
+    color: #072366;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 3.4rem;
+    margin-bottom: 65px;
+}
+.section-tittle span {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    color: #09cc7f;
+    text-transform: capitalize;
+    display: inline-block;
+    letter-spacing: 0.05em;
+}
+.card {
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 85px 22px;
+    position: relative;
+    z-index: 1;
+    max-width: 370px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    transition: .5s ease;
+  }
+  .card:hover i{
+      background-color: white;
+      color: #09cc7f;
+  }
+  .card:hover {
+      background-color: #09cc7f;
+      height: 100%;
+  }
+  .card:hover p {
+      color: white;
+  }
+  .card:hover h3 {
+      color: white;
+  }
+  .card h3{
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .active{
+    background-color:#09cc7f; 
+    color: white; 
+}
+.active p{color: white;}
+.active i {
+      background-color: white;
+      color: #09cc7f;
+  }
+  .cat-iconm,.mr{
+    margin-bottom: 50px;
+    width: 90px;
+    height: 90px;
+    background: #09cc7f;
+    line-height: 90px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+}
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+.mar{
+    margin-bottom: 40px;
+}
+
+// Crousal #################################################
+.about3{
+    background-color: whitesmoke;
+    padding: 9em 0;
+}
+.happ{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 60px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-inner .active{
+      background-color: white;
+  }
+  .box{
+	text-align: center;
+	border: 1px solid rgba(0,0,0,0.3);
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+	border-radius: 2px;
+	transition: 0.3s ease;
+}
+.m-4{
+    color: black!important;
+}
+.rate span {
+    font-size: 12px;
+    color: #fd645b;
+}
+.carousel-indicators{
+	position: absolute;
+	right: 0;
+	bottom: -60px!important;
+}
+.carousel-indicators li{
+	background-color: #16c9f6!important;
+}
+.box a img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+.box a:after{
+	content: "\f10d";
+	font-family: FontAwesome;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: linear-gradient(to right #33ccff 0%, #ff99cc 100%);
+	position: absolute;
+	top: 120%;
+	left: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box h1{
+	font-size: 20px;
+	font-weight: 500;
+	color: red;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.box h2{
+	font-size: 17px;
+	font-weight: 400;
+	color: #666666;
+	margin-bottom: 20px;
+}

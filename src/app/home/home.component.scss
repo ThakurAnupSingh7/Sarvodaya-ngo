@@ -70,7 +70,7 @@ section .overlay-wcs {
   width: 100%;
   height: auto;
   right: 0;
-  bottom: -20px;
+  bottom: -1px;
 }
 .fill-grey {
   fill: #333e48;
@@ -94,8 +94,8 @@ section .overlay-wcs {
   height: auto;
 }
 .shape-layer {
-  left: 74.57143%;
-  top: 26vw;
+  left: 80%;
+  top: 30vw;
 }
 .fill-yellow {
   fill: #86754d;
