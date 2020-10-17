@@ -132,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "SARVODAY-FOUNDATION"
+  "defaultProject": "SARVODAY-FOUNDATION",
+  "cli": {
+    "analytics": false
+  }
 }
