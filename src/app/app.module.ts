@@ -16,6 +16,11 @@ import {MatIconModule} from '@angular/material/icon';
 import { FooterComponent } from './footer/footer.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { OurWorkComponent } from './our-work/our-work.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { OutreachComponent } from './outreach/outreach.component';
+import { FundingComponent } from './funding/funding.component';
+import { GetInvolvedComponent } from './get-involved/get-involved.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +30,11 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     FooterComponent,
     AboutUsComponent,
     ContactUsComponent,
+    OurWorkComponent,
+    GalleryComponent,
+    OutreachComponent,
+    FundingComponent,
+    GetInvolvedComponent,
   ],
   imports: [
     BrowserModule,
