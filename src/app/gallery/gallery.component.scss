@@ -1,0 +1,41 @@
+img{
+    object-fit: cover; 
+}
+
+
+.img-gallery-top{
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-heading{
+    background: aliceblue;
+   }
+   
+   .gallery-heading h2{
+       margin: .45rem 0 .45rem;
+       color: rgb(0, 0, 0);
+       font-family: "Libre Baskerville", serif;
+       font-size: 3.4em;
+       line-height: 1.25em;
+       font-weight: 700;
+       text-align: center;
+   }
+   
+   .img-fluid {
+    max-width: 100%;
+    height: 260px;
+    object-fit: cover;
+   }
+   
+   .gallery-body{
+       height:470px;
+       object-fit: cover;
+   }
+   
+   
