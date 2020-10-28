@@ -4,7 +4,7 @@ img{
 .our_work img{
     object-fit: cover;
     height: 500px;
-    filter: brightness(70%);
+    filter: brightness(50%);
 }
 .overlay{
     position: absolute;
@@ -48,7 +48,7 @@ img{
         font-size: 15px;
  }
 
- .our_work2,.card p {
+ .our_work2,.our_work3,.card p {
     line-height: 1.4rem;
     word-spacing: 0.22222rem;
     text-align: justify;
@@ -57,7 +57,7 @@ img{
   }
 
 .our_work2{
-    background-color: #ad95f221;
+    background-color: white;
     padding-top: 30px;
     padding-bottom: 25px;
 }
@@ -71,7 +71,7 @@ img{
     font-size: 30px!important;
 }
 .k_v{
-    background-color:#fff!important;
+background: #ad95f221 !important;
 }
 .count_lg span{
     color: #072366;
@@ -84,6 +84,13 @@ img{
 }
 .paad{
     margin-top: 30px;
+}
+
+
+.our_work3{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 25px;
 }
 
 // our programes###############################################################
@@ -115,7 +122,7 @@ img{
     border-radius: 20px;
 }
 .card p{
-    font-size: 12px;
-    line-height: 16px;
-    padding: 20px 20px 20px 20px;
+    font-size: 13px;
+    line-height: 23px;
+    padding: 23px 20px 0px 20px;
 }

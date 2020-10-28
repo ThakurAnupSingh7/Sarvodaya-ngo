@@ -39,7 +39,7 @@ import { GetInvolvedComponent } from './get-involved/get-involved.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,MatMenuModule,MatToolbarModule,MatIconModule,MatCardModule,
+    BrowserAnimationsModule,MatMenuModule,MatToolbarModule ,MatIconModule,MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
