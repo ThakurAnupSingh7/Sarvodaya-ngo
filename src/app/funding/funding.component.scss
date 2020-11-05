@@ -1,0 +1,50 @@
+.row{
+    margin:0;
+    padding: 0;
+}
+
+.img-funding-top{
+    object-fit: cover; 
+    filter: brightness(50%);
+}
+
+.donate-details{
+    padding: 0 20% 0 23%;
+    text-align: justify;
+    
+}
+
+
+
+.donate-details .heading1{
+    font-size: 2rem;
+    color: #00aaa6;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.donate-details h2{
+    font-size: 1.4rem;
+    color: #00aaa6;
+    font-weight: 500;
+}
+
+.donate-details p{
+    font-size: 15px;
+    color: #38046a;
+    line-height: 2rem;
+    word-spacing: 0.3333rem;
+    text-align: justify;
+}
+
+.donate-details h6{
+    font-size: 15px;
+    line-height: 1.4rem;
+    word-spacing: 0.3333rem;
+    color: #101097;
+    font-weight: 500;
+}
+
+.start-campaign p{
+    margin-top: -26px;
+}
