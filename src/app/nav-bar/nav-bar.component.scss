@@ -92,7 +92,16 @@ span.last.one {
   img.avatar-01 {
     width: 50px;
     height: auto;
-    padding-top: 10px;
+    padding-top: 6px;
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 426px)  {
+  img.avatar-01 {
+    width: 100px;
+    height: auto;
+    padding-top: 6px;
+    margin-left: 0px;
   }
 }
 // .mat-toolbar-multiple-rows {
@@ -258,18 +267,32 @@ button:focus {
 .site-logo__shape path {
   fill: #fb3449;
 }
-// @media only screen and (min-width: 1080px){
-// .site-logo__shape {
-//     right: 71.42857%;
-//     width: 35.71429%;
-//   }
-// }
-// @media only screen and (min-width: 640px){
-// .site-logo__shape {
-//     width: 280px;
-//     width: 42.85714%;
-//     right: 64.28571%;
-//     left: auto;
-//     top: 20%;
-//   }
-// }
+
+// Media Query
+@media only screen and (max-width: 425px) and (min-width: 376px)  {
+  .shape {
+    position: absolute;
+    right: 75.42857%;
+    width: 32%;
+    top: 7%;
+  }
+}
+@media only screen and (max-width: 375px) and (min-width: 321px)  {
+  .shape {
+    position: absolute;
+    right: 75.42857%;
+    width: 32%;
+    top: 6.5%;
+  }
+  .home img{
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .shape {
+    position: absolute;
+    right: 72.42857%;
+    width: 35%;
+    top: 6.5%;
+  }
+}
