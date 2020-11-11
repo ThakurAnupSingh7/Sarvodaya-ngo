@@ -262,7 +262,7 @@ img{
         font-family: initial;;
     }
     .ab{
-        font-size: 20px;
+        font-size: 25px;
         display: block;
         color: #072366;
         font-weight: 600;
@@ -280,8 +280,53 @@ img{
         color: #38046a;
         font-size: 15px;
     }
+    .section-tittle h2 {
+        font-size: 25px;
+        display: block;
+        color: #072366;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 2.4rem;
+        margin-bottom: 65px;
+    }
+    .card{
+        margin-bottom: 15px;
+    }
+    .about2 .ab {
+        font-size: 25px;
+        display: block;
+        color: #072366;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 2.4rem;
+        text-align: center;
+        padding: 20px 26px 15px 26px;
+    }
+    .happ{
+        font-size: 25px;
+        display: block;
+        color: #072366;
+        font-weight: 600;
+        margin-bottom: 60px;
+    }
+    .box{
+        margin-bottom: 10px;
+    }
+    
 }
 @media only screen and (max-width: 768px) and (min-width: 426px)  {
+    
+    .overlay{
+        position: absolute;
+        top: 50%;
+        left: 35%;
+        font-size: 2.5rem;
+        line-height: 1.3;
+        word-spacing: 9px;
+        font-weight: 700;
+        color: #fafafa;
+        font-family: initial;;
+    }
     .about1{
         padding: 40px 30px;
     }
@@ -291,5 +336,8 @@ img{
         text-align: justify;
         color: #38046a;
         font-size: 15px;
+    }
+    .card{
+        padding: 10px;
     }
 }
