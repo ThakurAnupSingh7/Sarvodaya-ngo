@@ -1,7 +1,7 @@
 
 <app-nav-bar></app-nav-bar>
 
-<router-outlet></router-outlet>
+<router-outlet (activate)="onActivate($event)"></router-outlet>
 
 <br>
 <app-footer></app-footer>
