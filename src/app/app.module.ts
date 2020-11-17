@@ -21,6 +21,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { OutreachComponent } from './outreach/outreach.component';
 import { FundingComponent } from './funding/funding.component';
 import { GetInvolvedComponent } from './get-involved/get-involved.component';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,7 @@ import { GetInvolvedComponent } from './get-involved/get-involved.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,MatMenuModule,MatToolbarModule ,MatIconModule,MatCardModule,
+    BrowserAnimationsModule,MatMenuModule,MatToolbarModule ,MatIconModule,MatCardModule,MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
