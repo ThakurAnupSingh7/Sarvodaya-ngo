@@ -44,33 +44,38 @@
 
     <span class="last one" routerLink="contactUs">CONTACT US</span>
     
-
-    <!-- <span class="last one" [matMenuTriggerFor]="partner">CONTACT US</span>
-    <mat-menu #partner="matMenu" yPosition="below">
-      <button mat-menu-item routerLink="partners">
-        <mat-icon class="mat-icons">control_camera</mat-icon>
-        <span>Our Partners</span>
+    <span class="dropdown">
+      <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+        <!-- <mat-icon>more_vert</mat-icon> -->
+        <mat-icon>dialpad</mat-icon>
       </button>
-      <button mat-menu-item routerLink="become-partners">
-        <mat-icon class="mat-icons">call_merge</mat-icon>
-        <span>Become A Partner</span>
-      </button>
-    </mat-menu> -->
-
-    <!--Small screen sidenavbar-->
-    <!-- <span class="small-screen-menu">
-  
-        <div id="mySidenavbar" class="sidenavbar">
-          <a href="javascript:void(0)" class="closebtn" (click)="OncloseNavbar()">&times;</a>
-          <img src="assets/img/sports-logo-13.png" width="160">
-          <a routerLink='home' (click)="OncloseNavbar()">Home</a>
-          <a routerLink="game-info" (click)="OncloseNavbar()">Game Info</a>
-          <a routerLink="contactUs" (click)="OncloseNavbar()">Contact Us </a>
-        </div>
-  
-  
-        <span class="small-screen-menu" (click)="OnopenNavbar()">&#9776; </span>
-      </span> -->
-    <!--End Small screen sidenavbar-->
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+          <span routerLink="Home">HOME</span>
+        </button>
+        <button mat-menu-item >
+          <span routerLink="about">ABOUT US</span>
+        </button>
+        <button mat-menu-item>
+          <span routerLink="ourwork">OUR WORK</span>
+        </button>
+        <button mat-menu-item>
+          <span routerLink="outreach">OUTREACH</span>
+        </button>
+        <button mat-menu-item>
+          <span  routerLink="funding">FUNDING</span>
+        </button>
+        <button mat-menu-item>
+          <span routerLink="gallery">GALLERY</span>
+        </button>
+        <button mat-menu-item>
+          <span routerLink="getinvolved">GET INVOLVED</span>
+        </button>
+        <button mat-menu-item>
+          <span routerLink="contactUs">CONTACT US</span>
+        </button>
+      </mat-menu>
+    </span>
+   
   </mat-toolbar-row>
 </mat-toolbar>

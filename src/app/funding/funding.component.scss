@@ -14,7 +14,14 @@
     
 }
 
+button:hover{
+    background-color: #ffc107;
+    color: red;
+}
 
+button:focus{
+   outline: none;
+}
 
 .donate-details .heading1{
     font-size: 2rem;
@@ -47,4 +54,12 @@
 
 .start-campaign p{
     margin-top: -26px;
+}
+
+
+@media screen and (max-width: 950px) {
+    .donate-details {
+        padding: 15px;
+        text-align: unset;
+    } 
 }
