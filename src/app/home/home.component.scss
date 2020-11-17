@@ -480,14 +480,14 @@ section .section-title {
 // <!-- ################ Bacame a valunteer %%%%%%%%%%%%%%%%%%%%%%%%%%-->
 .join--us {
   position: relative;
-  top: 14rem;
-  margin-bottom: 14rem;
+  top: 16rem;
+  margin-bottom: 16rem;
 }
 .j1-2 {
   width: 40.14286%;
   left: -15.57143%;
   position: absolute;
-  top: -15rem;
+  top: -15.4rem;
   z-index: -1;
 }
 
@@ -530,4 +530,202 @@ section .section-title {
 
 .join-ext .btn:hover {
   background: transparent;
+}
+// Media Query @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@media only screen and (max-width: 1024px) and (min-width: 769px)  {
+  .g_item img{
+    width: 400px;
+    height: 350px;
+  }
+  .h2-lg {
+    font-size: 2.1rem;
+    line-height: 1.1;
+    word-spacing: 5px;
+    font-weight: 600;
+    font-family: initial;
+    color: #072366;
+  }
+  .list-split li,
+  .list-styled li {
+    font-size: 13px;
+    line-height: 1.2rem;
+    word-spacing: 0.2222rem;
+  }
+  .cont p {
+    font-size: 14px;
+    line-height: 1.5rem;
+    word-spacing: 0.3333rem;
+  }
+  .layer1 {
+    top: 70rem;
+  }
+  .cont
+  .heading1{
+    font-size: 2.1rem;
+    line-height: 1.1;
+    word-spacing: 5px;
+    font-weight: 600;
+    font-family: initial;
+    color: #072366;
+  }
+  .j1-2{
+    width: 44.14286%;
+    top: -10.1rem;
+  }
+  .example-card{
+    height: 578px;
+  }
+  .pb-5{
+    height: 123vh;
+  }
+  .join--us{
+    position: relative;
+    top: 11rem;
+    margin-bottom: 11rem;
+  }
+  .card-body{
+    height: 75vh;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px)  {
+  .cont{
+    max-width: 87.01408vw;
+  }
+  .g_item img{
+    width: 320px;
+    height: 270px;
+  }
+  .h2-lg {
+    font-size: 1.6rem;
+    line-height: 1.1;
+    word-spacing: 5px;
+    font-weight: 500;
+    font-family: initial;
+    color: #072366;
+  }
+  .list-split li,
+  .list-styled li {
+    font-size: 13px;
+    line-height: 1.2rem;
+    word-spacing: 0.2222rem;
+  }
+  .cont p {
+    font-size: 14px;
+    line-height: 1.5rem;
+    word-spacing: 0.3333rem;
+  }
+  .layer1 {
+    top: 70rem;
+  }
+  .cont
+  .small-heading{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .cont
+  .heading1{
+    font-size: 1.5rem;
+    line-height: 1.1;
+    word-spacing: 5px;
+    font-weight: 500;
+    font-family: initial;
+    color: #072366;
+  }
+  .j1-2{
+    width: 44.14286%;
+    top: -10.1rem;
+  }
+  .example-card{
+    height: 648px;
+  }
+  .pb-5{
+    height: 153vh;
+  }
+  .join--us{
+    position: relative;
+    top: 11rem;
+    margin-bottom: 11rem;
+  }
+  .card-body{
+    height: 85vh;
+  }
+  .btn{
+    min-width: 160px;
+  }
+}
+@media only screen and (max-width: 425px) and (min-width: 376px)  {
+  .cont{
+    max-width: 87.01408vw;
+  }
+  .g_item img{
+    width: 348px;
+    height: 270px;
+  }
+  .h2-lg {
+    font-size: 1.6rem;
+    line-height: 1.1;
+    word-spacing: 5px;
+    font-weight: 500;
+    font-family: initial;
+    color: #072366;
+  }
+  .underline{
+    margin-top: 40px;
+  }
+  .list-split li,
+  .list-styled li {
+    font-size: 14px;
+    line-height: 1.2rem;
+    word-spacing: 0.2222rem;
+  }
+  .cont p {
+    font-size: 14px;
+    line-height: 1.5rem;
+    word-spacing: 0.3333rem;
+  }
+  .layer1 {
+    top: 80rem;
+    width: 100.14286%;
+    left: -36%;
+  }
+  .cont
+  .small-heading{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .cont
+  .heading1{
+    font-size: 1.5rem;
+    line-height: 1.1;
+    word-spacing: 5px;
+    font-weight: 500;
+    font-family: initial;
+    color: #072366;
+  }
+  .list-split li:before, .list-styled li:before {
+    width: 1.11111rem;
+    margin-left: -1.11111rem;
+  }
+  .j1-2{
+    width: 44.14286%;
+    top: -10.1rem;
+  }
+  .example-card{
+    height: 648px;
+  }
+  .pb-5{
+    height: 153vh;
+  }
+  .join--us{
+    position: relative;
+    top: 11rem;
+    margin-bottom: 11rem;
+  }
+  .card-body{
+    height: 85vh;
+  }
+  .btn{
+    min-width: 160px;
+  }
 }
