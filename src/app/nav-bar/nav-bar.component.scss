@@ -84,10 +84,15 @@ span.last.one {
     height: 60px;
     width: 100%;
     background-color: #000000;
+    color: white;
   }
   .top-nav:hover {
     background-color: black;
     color: white;
+  }
+
+  .mat-icon {
+color: white;
   }
 
   span.one {

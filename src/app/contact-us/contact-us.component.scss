@@ -134,6 +134,12 @@
 
 
 @media screen and (max-width: 950px) {
+
+    .img img {
+        filter: brightness(50%);
+        height: 300px;
+        object-fit: cover;
+    }
     .contact-form-content {
         background: #F5F6FA;
         padding: 80px 0;
